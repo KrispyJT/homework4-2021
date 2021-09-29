@@ -30,17 +30,15 @@ caption{
   /*Req 1*/
 
 body{
-
-  display: block;
-  background-image: url("../imgs/pigeon-background.JPEG");
+  background-repeat: no-repeat;
+  background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD;
   font-family:"Andika", sans-serif;
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background-size: cover ;
+  background-size: cover;
   background-position: center;
-
 
 }
 
@@ -62,7 +60,7 @@ p{
 
 a {
   font-size: 16px;
-  color: #C12258;
+  color: #b21f50;
   text-decoration: wavy underline;
 }
 
@@ -105,15 +103,6 @@ td {
  
  tr:hover {
    background-color: rgb(126, 8, 37, .25);
-   transition-property: .25;
-  
-
-  
- 
-
- 
-
-
 }
 
 
@@ -128,12 +117,11 @@ td {
 
 
 table{  
-  box-sizing:initial;
+  /* box-sizing:initial; */
   display: table;
-   margin:auto;
-
+  margin:auto;
   border-radius: 50px;
-    border: 5px solid #000000;
+  border: 5px solid #000000;
   
 }
 
