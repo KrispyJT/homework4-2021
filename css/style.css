@@ -104,8 +104,9 @@ td {
 
  
  tr:hover {
-   background-color: rgb(126, 8, 37);
-  transition-property: .25;
+   background-color: rgb(126, 8, 37, .25);
+   transition-property: .25;
+  
 
   
  
